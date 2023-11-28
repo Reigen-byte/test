@@ -21,7 +21,7 @@ function findingRepeatingPairs(string) {
     }
 
     if (repeatingPairs.length > 0) {
-        console.log(`Pairs: ${repeatingPairs} repeats: ${maxCount} `)
+        return(`Pairs: ${repeatingPairs} repeats: ${maxCount} `)
     }
 }
 
